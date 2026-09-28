@@ -1,0 +1,35 @@
+BasedOnStyle: Google
+IndentWidth: 8
+ColumnLimit: 100
+AlignAfterOpenBracket: true
+AlignArrayOfStructures: Right
+AlignConsecutiveAssignments:
+        Enabled: true
+        AcrossEmptyLines: false
+        AcrossComments: true
+        AlignCompound: true
+        PadOperators: true
+AlignConsecutiveDeclarations: AcrossComments
+AlignConsecutiveBitFields: AcrossComments
+AlignConsecutiveMacros: AcrossComments
+AlignEscapedNewlines: LeftWithLastLine
+AlignOperands: Align
+AlignTrailingComments:
+        Kind: Always
+        OverEmptyLines: 0
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: AllIfsAndElse
+AllowShortLambdasOnASingleLine: All
+AllowShortLoopsOnASingleLine: true
+BreakBeforeBraces: Attach
+NumericLiteralCase:
+        ExponentLetter: Lower
+        HexDigit: Upper
+        Prefix: Lower
+        Suffix: Upper
+IntegerLiteralSeparator:
+        Decimal: 3
+        DecimalMinDigitsInsert: 5
+        Binary: 4
+        BinaryMinDigitsInsert: 6
+SpaceInEmptyBraces: Block
